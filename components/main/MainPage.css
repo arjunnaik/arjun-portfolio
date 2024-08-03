@@ -1,0 +1,44 @@
+.main-page {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 6rem); /* Adjust 100px to the combined height of your header and footer */
+  width: 100%;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+}
+
+.profile-image {
+  max-width: 50%;
+  max-height: 70%;
+  border-radius: 50%;
+}
+
+.description-section {
+  flex: 1;
+  padding: 20px;
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-link:hover {
+  background-color: #555;
+}
