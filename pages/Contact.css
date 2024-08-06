@@ -1,0 +1,48 @@
+.contacts-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-button,
+.send-button {
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contact-input {
+  background-color: transparent;
+  padding: 10px;
+  margin: 5px 0;
+  width: 200px;
+  text-align: center;
+}
+
+.contact-input::placeholder {
+  color: #000000;
+}
+
+.contact-button:hover,
+.send-button:hover {
+  color: #000;
+}
+
+.want-to-talk {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  height: 250px;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  background: linear-gradient(black,rgb(137, 137, 137), rgb(255, 255, 255));
+  font-family: "Playfair Display", serif; /* Stylish italic font */
+}
