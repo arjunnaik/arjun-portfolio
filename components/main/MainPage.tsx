@@ -10,19 +10,20 @@ const MainPage: React.FC = () => {
         <Image src={pic} alt="Your Name" className="profile-image" />
       </div>
       <div className="description-section">
-      <p>
-          👨‍💻 I am a frontend engineer with two years of experience in web development, 
-          desktop applications, and hardware integration. I specialize in creating 
-          seamless and efficient solutions using various technologies. 🚀
+        <p>
+          👨‍💻 I am a Software Engineer passionate about building seamless web and
+          desktop applications, with experience in hardware integration and
+          payment solutions.
         </p>
         <p>
-          💳 I have a strong background in integrating payment devices, automating deployment processes, 
-          and improving overall efficiency. I am also experienced in using modern tools and 
-          frameworks to deliver high-quality results. 🛠️
+          🚀 Beyond coding, I’m an avid explorer—whether it`s hitting the
+          badminton court, cycling through new trails, swimming, or hitting the
+          gym. I also love biking and discovering new places.
         </p>
+        <p>🌟 Always eager to learn, create, and push boundaries.</p>
         <p>
-          🌟 Feel free to explore my portfolio to learn more about my projects and achievements. 
-          📈
+          🌟 Feel free to explore my portfolio to learn more about my projects
+          and achievements. 📈
         </p>
       </div>
     </div>
