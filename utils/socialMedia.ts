@@ -2,7 +2,7 @@ export const socialMediaMapping = [
   {
     alt: "facebook",
     icon: require("../assets/facebook.png"),
-    url: "",
+    url: "https://m.facebook.com/profile.php?id=100027385038908",
   },
   {
     alt: "github",
@@ -12,7 +12,7 @@ export const socialMediaMapping = [
   {
     alt: "instagram",
     icon: require("../assets/instagram.png"),
-    url: "",
+    url: "https://www.instagram.com/arjunnaik_?igsh=MXNuMXo5cHZxdnFzZw%3D%3D&utm_source=qr",
   },
   {
     alt: "linkedin",
