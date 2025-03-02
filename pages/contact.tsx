@@ -1,10 +1,11 @@
+'use client'
 import React from "react";
 import "./Contact.css";
 
 const Contacts: React.FC = () => {
   return (
     <div>
-      {" "}
+
       <h1 className="want-to-talk">Want to talk ?</h1>
       <div className="contacts-container">
         <div className="contact-section">
@@ -24,7 +25,7 @@ const Contacts: React.FC = () => {
             </tr>
           </table>
         </div>
-        <div className="contact-section">
+        {/* <div className="contact-section">
           <h1 className="contact-button">Get In Touch</h1>
           <input type="text" placeholder="Name" className="contact-input" />
           <input
@@ -38,7 +39,7 @@ const Contacts: React.FC = () => {
             className="contact-input"
           />
           <button className="send-button">Send</button>
-        </div>
+        </div> */}
         <div></div>
       </div>
      
